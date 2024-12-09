@@ -14,7 +14,7 @@ RUN go mod tidy
 RUN go build -o main .
 
 # Ekspos port (ubah sesuai kebutuhan aplikasi Anda)
-EXPOSE 8080
+EXPOSE 3000
 
 # Jalankan aplikasi saat container dimulai
 CMD ["./main"]
